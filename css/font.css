@@ -1,0 +1,28 @@
+@font-face {
+    font-family:'akhandablack';
+    src: url(../Fonts/Akhanda/AkhandBengali-BLack.otf);
+}
+@font-face {
+    font-family:'akhandabold';
+    src: url(../Fonts/Akhanda/AkhandBengali-Bold.otf);
+}
+@font-face {
+    font-family:'akhandaxbold';
+    src: url(../Fonts/Akhanda/AkhandBengali-Extrabold.otf);
+}
+@font-face {
+    font-family:'akhandaxlight';
+    src: url(../Fonts/Akhanda/AkhandBengali-Extralight.otf);
+}
+@font-face {
+    font-family:'akhandalight';
+    src: url(../Fonts/Akhanda/AkhandBengali-Light.otf);
+}
+@font-face {
+    font-family:'akhandasmbold';
+    src: url(../Fonts/Akhanda/AkhandBengali-Semibold.otf);
+}
+@font-face {
+    font-family:'akhandasmlight';
+    src: url(../Fonts/Akhanda/AkhandBengali-Semilight.otf);
+}

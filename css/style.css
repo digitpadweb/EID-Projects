@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+body {
+    background: linear-gradient(to bottom, rgb(255 237 144), rgb(255 19 113 / 33%)), url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 200px;
+}
+h1 {
+    font-family: akhandablack;
+    font-size: 280px;
+    margin-top: -110px;
+    animation: honeanimation 2s alternate infinite;
+}
+
+@keyframes honeanimation{
+    0%{
+        color:red;
+    }
+    100%{
+        color:rgb(255, 2, 112);
+    }
+
+}
+
+p {
+    font-family: akhandasmbold;
+    font-size: 30px;
+    color:white
+}
+
+button{
+    padding: 10px 15px;
+    background: rgb(255, 3, 108);
+    border: 2px solid rgb(255, 3, 108);
+    transition: 0.5s;
+}
+
+button a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button:hover a{
+    color: rgb(255, 3, 108);
+    
+}
+button:hover{
+    background: white;
+    border: 2px solid rgb(255, 3, 108);
+}
