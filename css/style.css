@@ -18,7 +18,7 @@ body {
 h1 {
     font-family: akhandablack;
     font-size: 280px;
-    margin-top: -110px;
+    margin-top: -85px;
     animation: honeanimation 2s alternate infinite;
 }
 
@@ -50,12 +50,25 @@ button a{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+button a{
+    font-size: 25px;
+    font-family: akhandasmbold;
+    color: white;
+}
 
 button:hover a{
     color: rgb(255, 3, 108);
     
 }
+.button:hover a{
+    color: rgb(255, 255, 255);
+    
+}
 button:hover{
     background: white;
     border: 2px solid rgb(255, 3, 108);
+}
+.button:hover{
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
 }
